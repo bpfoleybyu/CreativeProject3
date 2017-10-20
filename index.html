@@ -17,7 +17,7 @@
       <br>
       <form ng-submit="todoAdd()">
           <input type="text" ng-model="todoInput" size="20" placeholder="Add New">
-          <input type="submit" value="Add New">
+          <input type="submit" value="Add New" ng-click="showme=true">
       </form>
     
       <div class="text" ng-repeat="x in todoList">
@@ -26,7 +26,7 @@
       <br>
       <p><button ng-click="remove()">Remove Item</button></p>
 
-      <h2><span class="emphasis">{{getTotalTodos()}}</span> left to get!</h2>
+      <h2 ng-show="showme"><span class="emphasis">{{getTotalTodos()}}</span> left to get!</h2>
       
       <script>
       var app = angular.module('myApp', []); 
