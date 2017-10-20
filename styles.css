@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: lightgreen;
+    background-color: rgb(81, 233, 81);
 }
 
 .input{
@@ -16,4 +16,8 @@ h1{
 .emphasis {
     font-family: vast-shadow, sans-serif;
     font-size: 3em;
+  }
+
+  .text{
+      font-size: x-large;
   }
