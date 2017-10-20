@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.input{
+  text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+}
+
+.emphasis {
+    font-family: vast-shadow, sans-serif;
+    font-size: 3em;
+  }
